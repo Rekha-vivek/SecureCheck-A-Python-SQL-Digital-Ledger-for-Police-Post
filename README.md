@@ -30,6 +30,6 @@ Instead of traditional paper registers, SecureCheck provides a **modern SQL-base
 ## 📁 Project Structure
 SecureCheck-A-Python-SQL-Digital-Ledger-for-Police-Post/
 │
-├── Police.ipynb       # Jupyter Notebook for data analysis and queries
-├── Police.py          # Python script for database connection and functions
-├── README.md          # Project documentation
+├── Police.ipynb       
+├── Police.py          
+├── README.md         
