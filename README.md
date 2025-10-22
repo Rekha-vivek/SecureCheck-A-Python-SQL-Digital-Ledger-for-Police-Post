@@ -105,7 +105,7 @@ WHERE drugs_related_stop = TRUE
 GROUP BY vehicle_number
 ORDER BY count DESC
 LIMIT 10;
-
+```
 ## 🧩 Key Python Functions
 
 | Function | Purpose |
