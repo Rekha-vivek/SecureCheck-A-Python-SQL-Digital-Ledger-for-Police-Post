@@ -130,3 +130,15 @@ LIMIT 10;
 | DUI | 45.00 |
 | Speeding | 23.00 |
 | No Seatbelt | 7.50 |
+---
+
+## 🌟 Future Enhancements
+- Add Streamlit dashboard for visual reports 📊  
+- Add login authentication for police users 🔐  
+- Enable data export to CSV or Excel 📁  
+- Integrate with AWS or Azure for remote access ☁️  
+
+## 👩‍💻 Author
+**Rekha Vivek**  
+ Data Science Learner  
+
