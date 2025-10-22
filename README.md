@@ -59,14 +59,16 @@ conn = psycopg2.connect(
     port="5432"
 )
 ```
-###4️⃣ Run the Code
-```bash
+```markdown
+### 4️⃣ Run the Code
 You can run the project in two ways:
-**Jupyter Notebook:**
-Open and execute `Police.ipynb`
-**Python Script:**
-```bash
-python Police.py
+
+- **Jupyter Notebook:**  
+  Open and execute `Police.ipynb`
+
+- **Python Script:**  
+  ```bash
+  python Police.py
 ```
 
 ## 🧡 **PART 5 — SQL Queries Used** 
