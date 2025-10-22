@@ -42,7 +42,7 @@ SecureCheck-A-Python-SQL-Digital-Ledger-for-Police-Post/
 ```bash
 git clone https://github.com/Rekha-vivek/SecureCheck-A-Python-SQL-Digital-Ledger-for-Police-Post.git
 cd SecureCheck-A-Python-SQL-Digital-Ledger-for-Police-Post
-
+```
 ###2️⃣ Install Dependencies
 ```bash
 pip install pandas psycopg2 sqlalchemy streamlit
