@@ -17,3 +17,15 @@ Instead of traditional paper registers, SecureCheck provides a **modern SQL-base
   - Drug-related stop statistics  
 - 🧠 Built using **Python, Pandas, and SQLAlchemy** for smooth data handling
 - 🔒 Secure connection with PostgreSQL database
+---
+
+## 🧰 Tech Stack
+| Component | Technology Used |
+|------------|----------------|
+| Programming Language | Python |
+| Database | PostgreSQL |
+| Libraries | psycopg2, SQLAlchemy, Pandas |
+| Optional Interface | Streamlit |
+| Environment | Jupyter Notebook / Python Script (.py) |
+
+## 📁 Project Structure
