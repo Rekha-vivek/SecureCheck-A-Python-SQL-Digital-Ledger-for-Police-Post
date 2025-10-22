@@ -42,11 +42,15 @@ SecureCheck-A-Python-SQL-Digital-Ledger-for-Police-Post/
 ```bash
 git clone https://github.com/Rekha-vivek/SecureCheck-A-Python-SQL-Digital-Ledger-for-Police-Post.git
 cd SecureCheck-A-Python-SQL-Digital-Ledger-for-Police-Post
+```
 
 ###2️⃣ Install Dependencies
+```
 pip install pandas psycopg2 sqlalchemy streamlit
+```
 
 ### 3️⃣ Configure the Database Connection
+```python
 conn = psycopg2.connect(
     host="localhost",
     database="securecheck_traffic",
@@ -54,20 +58,18 @@ conn = psycopg2.connect(
     password="your_password",
     port="5432"
 )
+```
 ###4️⃣ Run the Code
 You can run the project in two ways:
-Jupyter Notebook:
-Open and execute Police.ipynb
-Python Script:
+**Jupyter Notebook:**
+Open and execute `Police.ipynb`
+**Python Script:**
+```bash
 python Police.py
-
-
----
 
 ## 🧡 **PART 5 — SQL Queries Used** 
 
 ```markdown
----
 
 ## 🧮 SQL Queries Used
 
