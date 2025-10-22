@@ -28,4 +28,10 @@ Instead of traditional paper registers, SecureCheck provides a **modern SQL-base
 | Optional Interface | Streamlit |
 | Environment | Jupyter Notebook / Python Script (.py) |
 
-## 📁 Project Structure
+## 🚀 How to Run the Project
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/Rekha-vivek/SecureCheck-A-Python-SQL-Digital-Ledger-for-Police-Post.git
+cd SecureCheck-A-Python-SQL-Digital-Ledger-for-Police-Post
+
