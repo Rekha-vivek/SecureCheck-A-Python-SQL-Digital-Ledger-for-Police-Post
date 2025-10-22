@@ -94,3 +94,5 @@ LIMIT 10;
 | Speeding | 23.00 |
 | No Seatbelt | 7.50 |
 
+
+
