@@ -8,37 +8,29 @@ Instead of traditional paper registers, SecureCheck provides a modern SQL-based 
 ⚙️ Features
 
 🗃️ Store and retrieve police data (traffic stops, driver details, violations)
-
 🔍 Filter and analyze records using SQL queries
-
 📊 Generate insights such as:
-
-Most common violations
-
-Arrest rate by age group
-
-Average stop duration by violation type
-
-Drug-related stop statistics
-
+   Most common violations
+   Arrest rate by age group
+   Average stop duration by violation type
+   Drug-related stop statistics
 🧠 Built using Python, Pandas, and SQLAlchemy for smooth data handling
-
 🔒 Secure connection with PostgreSQL database
 
 🧰 Tech Stack
-Component	Technology Used
-Programming Language	Python
-Database	PostgreSQL
-Libraries	psycopg2, SQLAlchemy, Pandas
-Optional Interface	Streamlit
-Environment	Jupyter Notebook / Python Script (.py)
+Component	                  Technology Used
+Programming Language	      Python
+Database	                  PostgreSQL
+Libraries	                  psycopg2, SQLAlchemy, Pandas
+Optional Interface	          Streamlit
+Environment	                  Jupyter Notebook / Python Script (.py)
+
 📁 Project Structure
 SecureCheck-A-Python-SQL-Digital-Ledger-for-Police-Post/
 │
 ├── Police.ipynb       # Jupyter Notebook for data analysis and queries
 ├── Police.py          # Python script for database connection and functions
 ├── README.md          # Project documentation
-└── requirements.txt   # (optional) Required Python packages
 
 🚀 How to Run the Project
 1️⃣ Clone the Repository
@@ -49,9 +41,6 @@ cd SecureCheck-A-Python-SQL-Digital-Ledger-for-Police-Post
 pip install pandas psycopg2 sqlalchemy streamlit
 
 3️⃣ Configure the Database Connection
-
-Update your connection details inside Police.py:
-
 conn = psycopg2.connect(
     host="localhost",
     database="securecheck_traffic",
@@ -66,9 +55,7 @@ You can run the project in two ways:
 
 Jupyter Notebook:
 Open and execute Police.ipynb
-
 Python Script:
-
 python Police.py
 
 🧮 SQL Queries Used
@@ -118,29 +105,29 @@ ORDER BY total_arrests DESC;
 
 🧩 Key Python Functions
 Function	Purpose
-creating_connection()	Connects Python to the PostgreSQL database
-fetching_of_data(query)	Executes SQL queries and returns results as a Pandas DataFrame
-pd.read_sql(query, con=engine)	Reads SQL queries directly into Pandas
-create_engine()	Creates an SQLAlchemy connection engine for smoother integration
+creating_connection()	                 Connects Python to the PostgreSQL database
+fetching_of_data(query)	                 Executes SQL queries and returns results as a 
+                                         Pandas DataFrame
+pd.read_sql(query, con=engine)      	 Reads SQL queries directly into Pandas
+create_engine()	                         Creates an SQLAlchemy connection engine 
+                                         for smoother integration
+                                         
 📊 Example Outputs
 driver_age	total_stops	total_arrests	arrest_rate
-30	52	22	42.31%
-25	45	10	22.22%
-19	10	3	30.00%
-violation	avg_stop_duration
-DUI	45.00
-Speeding	23.00
-No Seatbelt	7.50
+30	             52	         22	          42.31%
+25	             45	         10       	  22.22%
+19	             10	          3	          30.00%
+violation	     avg_stop_duration
+DUI	                  45.00
+Speeding	          23.00
+No Seatbelt   	       7.50
+
 🌟 Future Enhancements
-
 Add Streamlit dashboard for visual reports 📊
-
 Add login authentication for police users 🔐
-
 Enable data export to CSV or Excel 📁
-
 Integrate with AWS or Azure for remote access ☁️
 
 👩‍💻 Author
-
 Rekha Vivek
+Data Science Learner
