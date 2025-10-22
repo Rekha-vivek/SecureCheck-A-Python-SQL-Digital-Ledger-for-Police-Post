@@ -34,3 +34,11 @@ SecureCheck-A-Python-SQL-Digital-Ledger-for-Police-Post/
 ├── Police.ipynb       
 ├── Police.py          
 ├── README.md         
+---
+
+## 🚀 How to Run the Project
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/Rekha-vivek/SecureCheck-A-Python-SQL-Digital-Ledger-for-Police-Post.git
+cd SecureCheck-A-Python-SQL-Digital-Ledger-for-Police-Post
