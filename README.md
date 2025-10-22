@@ -45,7 +45,7 @@ cd SecureCheck-A-Python-SQL-Digital-Ledger-for-Police-Post
 ```
 
 ###2️⃣ Install Dependencies
-```
+```bash
 pip install pandas psycopg2 sqlalchemy streamlit
 ```
 
@@ -60,12 +60,14 @@ conn = psycopg2.connect(
 )
 ```
 ###4️⃣ Run the Code
+```bash
 You can run the project in two ways:
 **Jupyter Notebook:**
 Open and execute `Police.ipynb`
 **Python Script:**
 ```bash
 python Police.py
+```
 
 ## 🧡 **PART 5 — SQL Queries Used** 
 
@@ -103,3 +105,29 @@ WHERE drugs_related_stop = TRUE
 GROUP BY vehicle_number
 ORDER BY count DESC
 LIMIT 10;
+---
+
+## 🧩 Key Python Functions
+
+| Function | Purpose |
+|-----------|----------|
+| `creating_connection()` | Connects Python to the PostgreSQL database |
+| `fetching_of_data(query)` | Executes SQL queries and returns results as a Pandas DataFrame |
+| `pd.read_sql(query, con=engine)` | Reads SQL queries directly into Pandas |
+| `create_engine()` | Creates an SQLAlchemy connection engine for smoother integration |
+
+---
+
+## 📊 Example Outputs
+
+| driver_age | total_stops | total_arrests | arrest_rate |
+|-------------|-------------|----------------|--------------|
+| 30 | 52 | 22 | 42.31% |
+| 25 | 45 | 10 | 22.22% |
+| 19 | 10 | 3 | 30.00% |
+
+| violation | avg_stop_duration |
+|------------|-------------------|
+| DUI | 45.00 |
+| Speeding | 23.00 |
+| No Seatbelt | 7.50 |
