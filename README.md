@@ -59,7 +59,6 @@ conn = psycopg2.connect(
     port="5432"
 )
 ```
-```markdown
 ### 4️⃣ Run the Code
 You can run the project in two ways:
 
@@ -69,8 +68,7 @@ You can run the project in two ways:
 - **Python Script:**  
   ```bash
   python Police.py
-```
-
+  
 ## 🧡 **PART 5 — SQL Queries Used** 
 
 ```markdown
