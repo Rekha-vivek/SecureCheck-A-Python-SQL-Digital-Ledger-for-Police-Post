@@ -35,9 +35,7 @@ Instead of traditional paper registers, SecureCheck provides a **modern SQL-base
 git clone https://github.com/Rekha-vivek/SecureCheck-A-Python-SQL-Digital-Ledger-for-Police-Post.git
 cd SecureCheck-A-Python-SQL-Digital-Ledger-for-Police-Post
 
-## 🧡 **PART 5 — SQL Queries Used**
-
-Copy this **below Part 4** 👇  
+## 🧡 **PART 5 — SQL Queries Used** 
 
 ```markdown
 
