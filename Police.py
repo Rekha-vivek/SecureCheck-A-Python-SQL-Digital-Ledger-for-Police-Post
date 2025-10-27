@@ -34,7 +34,7 @@ def fetching_of_data(query):
         return pd.DataFrame()
     
 #STREAMLITE APP TITLE
-st.set_page_config(page_title="SECURECHECK POLICE DASHBOARD",layout="wide")
+st.set_page_config(page_title="DIGITAL POLICE LOGS DASHBOARD",layout="wide")
 
 
 #                       *********************Page 1-INTRODUCTION************************
@@ -49,9 +49,9 @@ Traditional police logbooks are **paper-based**, making them difficult to manage
 They often lack real-time accessibility, transparency, and efficiency in operations.
 
 ### Objective          
-    ✅ To digitize police logs for better **record-keeping, transparency, and analytics**.
-    ✅ To provide an **interactive dashboard** for monitoring reports and officer activities.
-    ✅ To ensure **secure, efficient, and scalable data management**.
+    ✅ To digitize police logs for better record-keeping, transparency, and analytics.
+    ✅ To provide an interactive dashboard for monitoring reports and officer activities.
+    ✅ To ensure secure, efficient, and scalable data management.
     ✅ Query-powered dashboards for law enforcement
             
 ### Why Digital Logs?
@@ -87,7 +87,7 @@ with col4:
        
 #                       *********************Page 4-ADVANCED INSIGHTS************************
 
-st.header=='ADVANCED INSIGHTS'
+st.header('ADVANCED INSIGHTS')
 
 selected_query=st.selectbox('select a query to run',[
     "Top 10 vehicle number related to drug related stop",
