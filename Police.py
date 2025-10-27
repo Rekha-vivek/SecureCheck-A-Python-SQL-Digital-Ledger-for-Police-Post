@@ -349,7 +349,7 @@ if st.button("Run Query"):
 
 st.markdown("---")
 st.markdown("Built with ❤️ for Law Enforcement by SecureCheck")
-st.header("*🔍Custom Natural Language Filter*")
+st.header("*🔍Smart Traffic Stop Predictor*")
 
 st.header("☄️PREDICT THE OUTCOME AND VIOLATION")
 
